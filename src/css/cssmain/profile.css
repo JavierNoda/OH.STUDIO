@@ -1,0 +1,83 @@
+/************ estilos globales ************/
+
+/**** CONTENEDOR ****/
+.contenedor-profile{
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+
+
+
+/************ CUSTOM ************/
+
+/**** HERO ****/
+
+.hero-profile{
+  margin: 260px;
+}
+
+
+
+/**** TITULO ****/
+
+.pabout{
+  font-size: 2.2rem;
+  font-weight: 500;
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media(max-width:768px){
+  .pabout{
+    font-size:2rem ;
+    max-width: 100%;
+  }
+
+
+}
+
+
+/**** EXPERIENCIA ****/
+
+.experiencia h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.experiencia p{
+  font-size: .8rem;
+  color: #7f7f7f;
+}
+
+
+/**** clientes ****/
+
+
+
+.clientes{
+  margin-top: 120px!important;
+}
+
+
+.cliente{
+  filter: invert();
+  -webkit-filter: invert();
+  text-align: center;
+}
+
+@media(max-width:768px){
+  .cliente{
+    filter: invert();
+    -webkit-filter: invert();
+  }
+
+
+}
+
+
+.cliente img{
+  width: 200px
+}
+
