@@ -24,7 +24,7 @@
   "devDependencies": {
     "archiver": "^7.0.1",
     "del": "^7.1.0",
-    "eslint": "^8.57.1",
+    "eslint": "^9.22.0",
     "eslint-config-recommended": "^4.1.0",
     "eslint-plugin-mocha": "^10.5.0",
     "glob": "^11.0.0",
@@ -37,6 +37,7 @@
     "main.css": "3.0.0",
     "mocha": "^10.7.3",
     "prettier": "3.4.2",
+    "sass": "^1.86.0",
     "strip-json-comments": "^5.0.1"
   },
   "engines": {
