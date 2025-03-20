@@ -1,0 +1,24 @@
+// @import 'base/normalize.scss';
+// @use 'base/normalize' as *;
+@import 'base/variables';
+// @import 'base/variables';
+
+// Definición de un color rojo oscuro para ser utilizado en los estilos del proyecto
+$colorRojoOscuro: #8B0000;
+
+body {
+    font-family: $fuentesPrincipal;
+}
+
+h1 {
+    font-family: $fuentesSecundaria;
+}
+
+p {
+    font-family: $fuentesPrincipal;
+    color: $colorRojoOscuro;
+}
+
+a {
+    font-family: $fuentesSecundaria;
+}
