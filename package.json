@@ -36,7 +36,7 @@
     "gulp-sass": "^6.0.1",
     "main.css": "3.0.0",
     "mocha": "^10.7.3",
-    "prettier": "3.4.2",
+    "prettier": "3.5.3",
     "sass": "^1.86.0",
     "strip-json-comments": "^5.0.1"
   },
