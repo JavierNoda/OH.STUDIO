@@ -513,6 +513,9 @@ pcontainer-titulo {
   text-align: center;
 }
 
+.pslogan-titulo{
+  color: #000000;
+}
 
 .pslogan-titulo_gris {
   color: #7f7f7f;
