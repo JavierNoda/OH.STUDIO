@@ -1,5 +1,17 @@
 /************ ESTILOS GLOBALES ************/
 
+.top-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Ajusta el tamaño del degradado */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  pointer-events: none; /* Para que no interfiera con los clics */
+  z-index: 1000;
+}
+
+
 .Contenedor-projects {
   max-width: 70%;
   margin: 0 auto;
@@ -76,6 +88,28 @@
   -ms-border-radius: 35px;
   -o-border-radius: 35px;
 }
+
+@media(max-width:768px){
+   .imagen-muestra_projects{
+    width: 90vw!important;
+    height: 400px!important;
+   }
+}
+
+@media(max-width:568px){
+  .imagen-muestra_projects{
+   width: 90vw!important;
+   height: 350px!important;
+  }
+}
+
+@media(max-width:568px){
+  .imagen-muestra_projects{
+   width: 90vw!important;
+   height: 300px!important;
+  }
+}
+
 
 .pproyectos{
   padding: 0;
