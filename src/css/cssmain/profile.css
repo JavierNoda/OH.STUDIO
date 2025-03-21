@@ -1,27 +1,28 @@
 /************ estilos globales ************/
 
 /**** CONTENEDOR ****/
-.contenedor-profile{
+.contenedor-profile {
   max-width: 75%;
   margin: 0 auto;
 }
 
-
-
+@media (max-width: 768px) {
+  .contenedor-profile {
+    max-width: 90%;
+  }
+}
 
 /************ CUSTOM ************/
 
 /**** HERO ****/
 
-.hero-profile{
+.hero-profile {
   margin: 260px;
 }
 
-
-
 /**** TITULO ****/
 
-.pabout{
+.pabout {
   font-size: 2.2rem;
   font-weight: 500;
   max-width: 60%;
@@ -29,55 +30,44 @@
   text-align: center;
 }
 
-@media(max-width:768px){
-  .pabout{
-    font-size:2rem ;
+@media (max-width: 768px) {
+  .pabout {
+    font-size: 2rem;
     max-width: 100%;
   }
-
-
 }
-
 
 /**** EXPERIENCIA ****/
 
-.experiencia h3{
+.experiencia h3 {
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-.experiencia p{
-  font-size: .8rem;
+.experiencia p {
+  font-size: 0.8rem;
   color: #7f7f7f;
 }
 
-
 /**** clientes ****/
 
-
-
-.clientes{
-  margin-top: 120px!important;
+.clientes {
+  margin-top: 120px !important;
 }
 
-
-.cliente{
+.cliente {
   filter: invert();
   -webkit-filter: invert();
   text-align: center;
 }
 
-@media(max-width:768px){
-  .cliente{
+@media (max-width: 768px) {
+  .cliente {
     filter: invert();
     -webkit-filter: invert();
   }
-
-
 }
 
-
-.cliente img{
-  width: 200px
+.cliente img {
+  width: 200px;
 }
-
