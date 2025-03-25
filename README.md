@@ -47,6 +47,6 @@ Pasos para desplegar en Vercel:
 
 ### 🔹 📌 Instalación y Uso
 - Clona este repositorio:
-- git clone https://github.com/tu-usuario/tu-repositorio.git
+- https://github.com/JavierNoda/OH.STUDIO.git
 - Abre el proyecto en tu editor favorito.
 - Ejecuta el proyecto en un servidor local o despliega con Vercel.
