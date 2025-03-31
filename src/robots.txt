@@ -2,5 +2,5 @@
 
 
 User-agent: *
-Allow: /
+Allow: /src/pages/profile.html
 Sitemap: https://tuweb.com/sitemap.xml
